@@ -1,0 +1,131 @@
+{
+ "profiles": [
+    {
+        "job_id": "01",
+        "job_profile": "Java Developer",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "4+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "02",
+        "job_profile": "Java Developer",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "2+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "03",
+        "job_profile": "Java Developer Fresher",
+        "employment_type": "Full time",
+        "job_location": "Mumbai",
+        "experience": "NA",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "04",
+        "job_profile": "Senior Java Developer",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "5+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "05",
+        "job_profile": "Flutter Developer",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "2+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "06",
+        "job_profile": "SQL Developer",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "3+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "07",
+        "job_profile": "Flutter Developer",
+        "employment_type": "Full time",
+        "job_location": "Nagpur",
+        "experience": "4+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "08",
+        "job_profile": "Voice Executive",
+        "employment_type": "Full time",
+        "job_location": "Nagpur",
+        "experience": "1+ years",
+        "sector": "non-it",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "09",
+        "job_profile": "Risk Analyst",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "4+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "10",
+        "job_profile": "Product Manager",
+        "employment_type": "Full time",
+        "job_location": "Pune",
+        "experience": "4+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "11",
+        "job_profile": "Tele Caller",
+        "employment_type": "Full time",
+        "job_location": "Bangalore",
+        "experience": "1+ years",
+        "sector": "non-it",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "12",
+        "job_profile": "BHR Executive",
+        "employment_type": "Full time",
+        "job_location": "Chennai",
+        "experience": "3+ years",
+        "sector": "non-it",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        "job_id": "13",
+        "job_profile": "Node Developer",
+        "employment_type": "Full time",
+        "job_location": "Noida",
+        "experience": "3+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    },
+    {
+        
+        "job_id": "14",
+        "job_profile": "C++ Developer",
+        "employment_type": "Full time",
+        "job_location": "Bangalore",
+        "experience": "5+ years",
+        "sector": "IT",
+        "job_description": ["knowledge in core Java, spring and hibernate.", "experience in Java script, jQuery, Bootstrap, Html 5, CSS3.", "Strong Experience in J2EE, JSP, Servlets, SQL/PLSQL", "Experience in designing, developing and deployment of Microservices.", "Good to have knowledge in frameworks like JPA, Struts/Spring MVC, Spring Core, Spring AOP, and Spring Data."]
+    }
+ ]   
+}

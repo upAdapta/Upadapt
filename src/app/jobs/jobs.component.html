@@ -1,0 +1,110 @@
+<div class="jobs-banner">
+    <div class="bg-mask">
+        <div class="up-container d-flex align-items-center justify-content-center flex-column">
+            <div class="search-box">
+                <input type="text" class="form-control search-field" placeholder="Search jobs here...">
+                <div class="search-list pb-2">
+                    <ul>
+                        <li *ngFor="let item of jobData" class="my-2 pointer" (click)="scrollTo(item.job_id)">
+                            {{item.job_profile}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="up-container" id="jobSection">
+    <div class="row justify-content-between">
+        <div class="job-card-wrapper col-12 col-md-7">
+            <div *ngFor="let item of filteredJobData" class="job-card w-100 mb-3 d-flex flex-column"
+                id={{item.job_id}} data-aos="fade-up">
+                <h5 class="mb-3">{{item.job_profile}}</h5>
+
+                <div class="d-flex flex-row flex-wrap gap-2 mb-4">
+                    <div class="chip">
+                        <small>{{item.employment_type}}</small>
+                        <img src="../../assets/icons/briefcase.png" class="img-fluid ms-3" height="20px" width="20px" alt="">
+                    </div>
+                    <div class="chip">
+                        <small>{{item.experience}}</small>
+                        <img src="../../assets/icons/star.png" class="img-fluid ms-3" height="20px" width="20px" alt="">
+                    </div>
+                    <div class="chip">
+                        <small>{{item.job_location}}</small>
+                        <img src="../../assets/icons/location.png" class="img-fluid ms-3" height="20px" width="20px"
+                            alt="">
+                    </div>
+                </div>
+                <hr>
+
+                <h6>Job Description</h6>
+                <ul>
+                    <li *ngFor="let point of item.job_description">{{point}}</li>
+                </ul>
+
+                <a href="https://upadapt.co.in/jobs-form"><button type="button" class="btn btn-warning">Apply Now</button></a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-5">
+            <div *ngIf="chipArray.length" class="filter-card mb-3">
+                <div class="chip d-flex align-items-center" *ngFor="let item of chipArray">
+                    <p class="m-0 me-2">{{item.name}}</p>
+                    <img (click)="removeFilter(item)" src="../../assets/icons/cross.png" class="m-0 float-end" height="40%" alt="">
+                </div>
+            </div>
+            <div class="filter-card p-0">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Profiles
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="search-list pb-2">
+                                <ul>
+                                    <li *ngFor="let item of jobData" class="my-2 pointer" (click)="addFilter(item.job_profile, 'profile')">
+                                        {{item.job_profile}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Location
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="search-list pb-2">
+                                <ul>
+                                    <li *ngFor="let item of locations" class="my-2 pointer" (click)="addFilter(item, 'location')">
+                                    {{item}}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Filter Item 3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

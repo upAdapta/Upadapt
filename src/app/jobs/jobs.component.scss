@@ -1,0 +1,95 @@
+@import '../../styles.scss';
+
+.jobs-banner{
+    background-image: url(../../assets/jobs-bg-image.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.bg-mask{
+    background-color: $primary_dark_color;
+    height: 100%;
+    opacity: .5;
+}
+
+.up-container{
+    height: 100%;
+}
+.search-box{
+    width: 50%;
+}
+.search-field{
+    align-items: center;
+    border-radius: 4px 4px 0px 0px;
+}
+.search-list{
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    max-height: 10rem;
+    overflow-y: scroll;   
+    li{
+        list-style: none;
+    }
+    &.webkit-scrollbar{
+        display: none;
+    }
+}
+
+.job-card{
+    width: 100%;
+    border-radius: 8px;
+    padding: 2rem;
+    background-color: $primary_light_color;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    .chip{
+        background-color: #ffdb84;
+        padding: 4px 12px 4px 12px;
+        border-radius: 4px;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+    }    
+}
+
+.filter-card{
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .accordion-button{
+        background-color: white;
+        color: $primary_dark_color;
+        &:focus{
+            box-shadow: none;
+            border-color: rgba(0,0,0,.125);
+        }
+    }
+    padding: 1rem;
+    border-radius: 1rem;
+    .chip{
+        width: fit-content;
+        background-color: #ffdb84;
+        padding: 4px 12px 4px 12px;
+        border-radius: 8px;
+        height: 2rem;
+        margin: .5rem;
+    } 
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .job-card{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .job-card {
+        width: 100%;
+    }
+    .search-box{
+        width: 100%;
+    }
+}

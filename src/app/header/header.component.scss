@@ -1,0 +1,64 @@
+@import '../../styles.scss';
+
+.header{
+    background: transparent;
+    background-color: #A37D21;
+    padding: 0rem 8rem 0rem 8rem;
+
+}
+
+.logo{
+    height: 5rem;
+    width: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+}
+
+
+
+nav{
+    a{
+        position:relative;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        padding: .5rem .5rem;
+        margin: .5rem;
+        font-size: 1rem;
+        color: #E2E2DF;
+    }
+    a:after{
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        background-color: $primary_theme_color;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -2px;
+        transition: 1s;
+    }
+
+    a:hover{
+        color:white;
+    }
+    
+    a:hover::after{
+        width: 100%;
+    }
+
+    a{
+        &.active{
+            border-bottom: 3px solid $primary_theme_color;
+            color: white;
+        }
+    }
+}

@@ -1,1 +1,108 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    app-container {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.up-container{
+    margin: 0;
+    padding: 5rem 8rem 5rem 8rem;
+
+    @media screen and (max-width: 900px) {
+            padding: 5rem 3rem 5rem 3rem;
+    }
+    @media screen and (max-width: 500px) {
+            padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+.header-logo{
+    height: 6.25rem;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    .title-underline{
+        width: 6rem;
+        height: .625rem;
+        border-radius: 1rem;
+        background-color: #FFC333;
+    }
+}
+.container{
+    &.container-custom{
+        margin: 0rem 10rem 0rem 10rem;
+        padding: 2rem 0rem 2rem 0rem;
+
+        @media screen and ( max-width: 820px )
+        {        
+            margin: 0rem 5rem 0rem 5rem;
+            padding: 2rem 0rem 2rem 0rem;
+        }
+        @media screen and ( max-width: 480px )
+        {        
+            margin: 0rem 2rem 0rem 2rem;
+            padding: 1rem 0rem 1rem 0rem;
+        }
+    }
+}
+
+
+
+
+
+
+// Colors
+
+$primary_theme_color: #FFC333;
+$primary_dark_color: #00171f;
+$primary_light_color: #ffeec6;
+
+.color-primary{
+    color: $primary_theme_color;
+}
+.bg-color-primary{
+    background-color: $primary_theme_color;
+}
+// Button 
+
+.btn{
+    min-width: 12rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    @media screen and ( max-width: 420px )
+    {        
+       width: 100%;
+    }
+}
+
+.page-banner{
+    width: 100%;
+    margin: 0;
+    padding: 5rem 8rem 5rem 8rem;
+    background-color: $primary_theme_color;
+    // min-height: 90vh;
+    border-radius: 0rem 0rem 6.25rem 12.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .page-banner {
+        padding: 5rem 3rem 5rem 3rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .page-banner {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
